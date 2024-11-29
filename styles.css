@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #00796b;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Book Container */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.book {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+}
+
+.book a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+    display: block;
+}
+
+.book a:hover {
+    color: #00796b;
+}
+
+.book strong {
+    display: block;
+    font-size: 1.25rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #00796b;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+/* Hover Effect */
+.book:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .book strong {
+        font-size: 1.1rem;
+    }
+}
