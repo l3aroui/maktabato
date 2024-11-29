@@ -18,30 +18,7 @@
             "imagePath":"images/image3.png",
             "Link":"https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D9%85%D9%86%D9%87%D8%AC%D9%8A%D9%87-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A-pdf-1614200261"
         },
-        {
-            "id":"1",
-            "title":"محاط بالحمقى",
-            "imagePath":"images/image1.png",
-            "Link":"https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D9%85%D8%AD%D8%A7%D8%B7-%D8%A8%D8%A7%D9%84%D8%AD%D9%85%D9%82%D9%89-pdf-1713674906"
-        },
-        {
-            "id":"2",
-            "title":"رحلتى من الشك الى الايمان ",
-            "imagePath":"images/image2.png",
-            "Link":"https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%B1%D8%AD%D9%84%D8%AA%D9%89-%D9%85%D9%86-%D8%A7%D9%84%D8%B4%D9%83-%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%A7%D9%8A%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%A8-%D8%AF-%D9%85%D8%B5%D8%B7%D9%81%D9%89-%D9%85%D8%AD%D9%85%D9%88%D8%AF-pdf"
-        },
-        {
-            "id":"3",
-            "title":"منهجية البحث العلمي ",
-            "imagePath":"images/image3.png",
-            "Link":"https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D9%85%D9%86%D9%87%D8%AC%D9%8A%D9%87-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A-pdf-1614200261"
-        },
-        {
-            "id":"3",
-            "title":"منهجية البحث العلمي ",
-            "imagePath":"images/image3.png",
-            "Link":"https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D9%85%D9%86%D9%87%D8%AC%D9%8A%D9%87-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB-%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A-pdf-1614200261"
-        },
+        
         {
             "id": "4",
             "title": "الإسلام بين الشرق والغرب",
