@@ -86,3 +86,13 @@ footer {
         font-size: 1.1rem;
     }
 }
+.whatsapp-button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
