@@ -15,6 +15,10 @@ fetch('data.json')
                 <img src="${book.imagePath}" alt="${book.title}" >
                 <strong>${book.title}</strong>
                 </a>
+                <button class="whatsapp-button" 
+                    onclick="window.open('https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}', '_blank')">
+                    طلب عبر WhatsApp
+                </button>
             `;
             bookContainer.appendChild(bookDiv);
         });
