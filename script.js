@@ -10,6 +10,10 @@ fetch('data.json')
         data.books.forEach(book => {
             const bookDiv=document.createElement('div')
             bookDiv.classList.add('book');
+            const whatsappNumber = "+212603338629"; // استبدل الرقم هنا برقمك مع رمز البلد
+            
+            // رسالة طلب الكتاب عبر واتساب
+            const message = `مرحبًا، أرغب في طلب الكتاب: ${book.title}`;
             bookDiv.innerHTML=`
                 <a href="${book.Link}">
                 <img src="${book.imagePath}" alt="${book.title}" >
