@@ -7,7 +7,17 @@ body {
     padding: 0;
     line-height: 1.6;
 }
-
+.books-container {
+    display: flex;           /* Enables flexbox layout */
+    flex-wrap: wrap;         /* Allows items to wrap to the next row */
+    gap: 20px;               /* Adds spacing between the cards */
+    justify-content: center; /* Centers the cards horizontally */
+    align-items: flex-start; /* Aligns the cards to the top of the row */
+    margin: 20px auto;       /* Centers the container itself on the page */
+    max-width: 1200px;       /* Restricts the container width for consistent layout */
+    padding: 10px;           /* Adds padding inside the container */
+    box-sizing: border-box;  /* Ensures padding doesn't affect width calculation */
+}
 h1 {
     font-size: 2.5rem;
     color: #fff;
@@ -38,8 +48,9 @@ main {
 }
 
 .book img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;        /* Ensure images scale properly */
+    height: auto;           /* Maintain aspect ratio */
+    border-radius: 4px;     /* Optional: Round image corners */
 }
 
 .book a {
